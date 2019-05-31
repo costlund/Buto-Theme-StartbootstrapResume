@@ -1,0 +1,143 @@
+settings:
+  path: '1/innerHTML'
+content:
+  -
+    type: nav
+    attribute:
+      class: 'navbar navbar-expand-lg navbar-dark bg-primary fixed-top'
+      id: sideNav
+    innerHTML:
+      -
+        type: a
+        attribute:
+          class: 'navbar-brand js-scroll-trigger'
+          href: '#page-top'
+        innerHTML:
+          -
+            type: span
+            attribute:
+              class: 'd-block d-lg-none'
+            innerHTML: 'Clarence Taylor'
+          -
+            type: span
+            attribute:
+              class: 'd-none d-lg-block'
+            innerHTML:
+              -
+                type: img
+                attribute:
+                  class: 'img-fluid img-profile rounded-circle mx-auto mb-2'
+                  src: /theme/startbootstrap/resume/img/profile.jpg
+                  alt: ''
+      -
+        type: button
+        attribute:
+          class: navbar-toggler
+          type: button
+          data-toggle: collapse
+          data-target: '#navbarSupportedContent'
+          aria-controls: navbarSupportedContent
+          aria-expanded: 'false'
+          aria-label: 'Toggle navigation'
+        innerHTML:
+          -
+            type: span
+            attribute:
+              class: navbar-toggler-icon
+      -
+        type: div
+        attribute:
+          class: 'collapse navbar-collapse'
+          id: navbarSupportedContent
+        innerHTML:
+          -
+            type: ul
+            attribute:
+              class: navbar-nav
+            innerHTML:
+              -
+                type: li
+                attribute:
+                  class: nav-item
+                innerHTML:
+                  -
+                    type: a
+                    attribute:
+                      class: 'nav-link js-scroll-trigger'
+                      href: '#about'
+                    innerHTML: About
+              -
+                type: li
+                attribute:
+                  class: nav-item
+                innerHTML:
+                  -
+                    type: a
+                    attribute:
+                      class: 'nav-link js-scroll-trigger'
+                      href: '#experience'
+                    innerHTML: Experience
+              -
+                type: li
+                attribute:
+                  class: nav-item
+                innerHTML:
+                  -
+                    type: a
+                    attribute:
+                      class: 'nav-link js-scroll-trigger'
+                      href: '#education'
+                    innerHTML: Education
+              -
+                type: li
+                attribute:
+                  class: nav-item
+                innerHTML:
+                  -
+                    type: a
+                    attribute:
+                      class: 'nav-link js-scroll-trigger'
+                      href: '#skills'
+                    innerHTML: Skills
+              -
+                type: li
+                attribute:
+                  class: nav-item
+                innerHTML:
+                  -
+                    type: a
+                    attribute:
+                      class: 'nav-link js-scroll-trigger'
+                      href: '#interests'
+                    innerHTML: Interests
+              -
+                type: li
+                attribute:
+                  class: nav-item
+                innerHTML:
+                  -
+                    type: a
+                    attribute:
+                      class: 'nav-link js-scroll-trigger'
+                      href: '#awards'
+                    innerHTML: Awards
+  -
+    type: div
+    innerHTML: content...
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/resume/vendor/jquery/jquery.min.js
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/resume/vendor/bootstrap/js/bootstrap.bundle.min.js
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/resume/vendor/jquery-easing/jquery.easing.min.js
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/resume/js/resume.min.js
+    

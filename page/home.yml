@@ -1,0 +1,675 @@
+settings:
+  layout:
+    - html
+    - main
+content:
+  -
+    type: div
+    attribute:
+      class: 'container-fluid p-0'
+    innerHTML:
+      -
+        type: section
+        attribute:
+          class: 'resume-section p-3 p-lg-5 d-flex align-items-center'
+          id: about
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: w-100
+            innerHTML:
+              -
+                type: h1
+                attribute:
+                  class: mb-0
+                innerHTML:
+                  -
+                    type: span
+                    innerHTML: Clarence
+                  -
+                    type: span
+                    attribute:
+                      class: text-primary
+                    innerHTML: Taylor
+              -
+                type: div
+                attribute:
+                  class: 'subheading mb-5'
+                innerHTML:
+                  -
+                    type: span
+                    innerHTML: '3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·'
+                  -
+                    type: a
+                    attribute:
+                      href: 'mailto:name@email.com'
+                    innerHTML: name@email.com
+              -
+                type: p
+                attribute:
+                  class: 'lead mb-5'
+                innerHTML: 'I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.'
+              -
+                type: div
+                attribute:
+                  class: social-icons
+                innerHTML:
+                  -
+                    type: a
+                    attribute:
+                      href: '#'
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-linkedin-in'
+                  -
+                    type: a
+                    attribute:
+                      href: '#'
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-github'
+                  -
+                    type: a
+                    attribute:
+                      href: '#'
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-twitter'
+                  -
+                    type: a
+                    attribute:
+                      href: '#'
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-facebook-f'
+      -
+        type: hr
+        attribute:
+          class: m-0
+      -
+        type: section
+        attribute:
+          class: 'resume-section p-3 p-lg-5 d-flex justify-content-center'
+          id: experience
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: w-100
+            innerHTML:
+              -
+                type: h2
+                attribute:
+                  class: mb-5
+                innerHTML: Experience
+              -
+                type: div
+                attribute:
+                  class: 'resume-item d-flex flex-column flex-md-row justify-content-between mb-5'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: resume-content
+                    innerHTML:
+                      -
+                        type: h3
+                        attribute:
+                          class: mb-0
+                        innerHTML: 'Senior Web Developer'
+                      -
+                        type: div
+                        attribute:
+                          class: 'subheading mb-3'
+                        innerHTML: 'Intelitec Solutions'
+                      -
+                        type: p
+                        innerHTML: 'Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.'
+                  -
+                    type: div
+                    attribute:
+                      class: 'resume-date text-md-right'
+                    innerHTML:
+                      -
+                        type: span
+                        attribute:
+                          class: text-primary
+                        innerHTML: 'March 2013 - Present'
+              -
+                type: div
+                attribute:
+                  class: 'resume-item d-flex flex-column flex-md-row justify-content-between mb-5'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: resume-content
+                    innerHTML:
+                      -
+                        type: h3
+                        attribute:
+                          class: mb-0
+                        innerHTML: 'Web Developer'
+                      -
+                        type: div
+                        attribute:
+                          class: 'subheading mb-3'
+                        innerHTML: 'Intelitec Solutions'
+                      -
+                        type: p
+                        innerHTML: 'Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.'
+                  -
+                    type: div
+                    attribute:
+                      class: 'resume-date text-md-right'
+                    innerHTML:
+                      -
+                        type: span
+                        attribute:
+                          class: text-primary
+                        innerHTML: 'December 2011 - March 2013'
+              -
+                type: div
+                attribute:
+                  class: 'resume-item d-flex flex-column flex-md-row justify-content-between mb-5'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: resume-content
+                    innerHTML:
+                      -
+                        type: h3
+                        attribute:
+                          class: mb-0
+                        innerHTML: 'Junior Web Designer'
+                      -
+                        type: div
+                        attribute:
+                          class: 'subheading mb-3'
+                        innerHTML: 'Shout! Media Productions'
+                      -
+                        type: p
+                        innerHTML: 'Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.'
+                  -
+                    type: div
+                    attribute:
+                      class: 'resume-date text-md-right'
+                    innerHTML:
+                      -
+                        type: span
+                        attribute:
+                          class: text-primary
+                        innerHTML: 'July 2010 - December 2011'
+              -
+                type: div
+                attribute:
+                  class: 'resume-item d-flex flex-column flex-md-row justify-content-between'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: resume-content
+                    innerHTML:
+                      -
+                        type: h3
+                        attribute:
+                          class: mb-0
+                        innerHTML: 'Web Design Intern'
+                      -
+                        type: div
+                        attribute:
+                          class: 'subheading mb-3'
+                        innerHTML: 'Shout! Media Productions'
+                      -
+                        type: p
+                        innerHTML: 'Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.'
+                  -
+                    type: div
+                    attribute:
+                      class: 'resume-date text-md-right'
+                    innerHTML:
+                      -
+                        type: span
+                        attribute:
+                          class: text-primary
+                        innerHTML: 'September 2008 - June 2010'
+      -
+        type: hr
+        attribute:
+          class: m-0
+      -
+        type: section
+        attribute:
+          class: 'resume-section p-3 p-lg-5 d-flex align-items-center'
+          id: education
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: w-100
+            innerHTML:
+              -
+                type: h2
+                attribute:
+                  class: mb-5
+                innerHTML: Education
+              -
+                type: div
+                attribute:
+                  class: 'resume-item d-flex flex-column flex-md-row justify-content-between mb-5'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: resume-content
+                    innerHTML:
+                      -
+                        type: h3
+                        attribute:
+                          class: mb-0
+                        innerHTML: 'University of Colorado Boulder'
+                      -
+                        type: div
+                        attribute:
+                          class: 'subheading mb-3'
+                        innerHTML: 'Bachelor of Science'
+                      -
+                        type: div
+                        innerHTML: 'Computer Science - Web Development Track'
+                      -
+                        type: p
+                        innerHTML: 'GPA: 3.23'
+                  -
+                    type: div
+                    attribute:
+                      class: 'resume-date text-md-right'
+                    innerHTML:
+                      -
+                        type: span
+                        attribute:
+                          class: text-primary
+                        innerHTML: 'August 2006 - May 2010'
+              -
+                type: div
+                attribute:
+                  class: 'resume-item d-flex flex-column flex-md-row justify-content-between'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: resume-content
+                    innerHTML:
+                      -
+                        type: h3
+                        attribute:
+                          class: mb-0
+                        innerHTML: 'James Buchanan High School'
+                      -
+                        type: div
+                        attribute:
+                          class: 'subheading mb-3'
+                        innerHTML: 'Technology Magnet Program'
+                      -
+                        type: p
+                        innerHTML: 'GPA: 3.56'
+                  -
+                    type: div
+                    attribute:
+                      class: 'resume-date text-md-right'
+                    innerHTML:
+                      -
+                        type: span
+                        attribute:
+                          class: text-primary
+                        innerHTML: 'August 2002 - May 2006'
+      -
+        type: hr
+        attribute:
+          class: m-0
+      -
+        type: section
+        attribute:
+          class: 'resume-section p-3 p-lg-5 d-flex align-items-center'
+          id: skills
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: w-100
+            innerHTML:
+              -
+                type: h2
+                attribute:
+                  class: mb-5
+                innerHTML: Skills
+              -
+                type: div
+                attribute:
+                  class: 'subheading mb-3'
+                innerHTML: 'Programming Languages & Tools'
+              -
+                type: ul
+                attribute:
+                  class: 'list-inline dev-icons'
+                innerHTML:
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-html5'
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-css3-alt'
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-js-square'
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-angular'
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-react'
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-node-js'
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-sass'
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-less'
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-wordpress'
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-gulp'
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-grunt'
+                  -
+                    type: li
+                    attribute:
+                      class: list-inline-item
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fab fa-npm'
+              -
+                type: div
+                attribute:
+                  class: 'subheading mb-3'
+                innerHTML: Workflow
+              -
+                type: ul
+                attribute:
+                  class: 'fa-ul mb-0'
+                innerHTML:
+                  -
+                    type: li
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fa-li fa fa-check'
+                      -
+                        type: span
+                        innerHTML: 'Mobile-First, Responsive Design'
+                  -
+                    type: li
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fa-li fa fa-check'
+                      -
+                        type: span
+                        innerHTML: 'Cross Browser Testing & Debugging'
+                  -
+                    type: li
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fa-li fa fa-check'
+                      -
+                        type: span
+                        innerHTML: 'Cross Functional Teams'
+                  -
+                    type: li
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fa-li fa fa-check'
+                      -
+                        type: span
+                        innerHTML: 'Agile Development & Scrum'
+      -
+        type: hr
+        attribute:
+          class: m-0
+      -
+        type: section
+        attribute:
+          class: 'resume-section p-3 p-lg-5 d-flex align-items-center'
+          id: interests
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: w-100
+            innerHTML:
+              -
+                type: h2
+                attribute:
+                  class: mb-5
+                innerHTML: Interests
+              -
+                type: p
+                innerHTML: 'Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.'
+              -
+                type: p
+                attribute:
+                  class: mb-0
+                innerHTML: 'When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.'
+      -
+        type: hr
+        attribute:
+          class: m-0
+      -
+        type: section
+        attribute:
+          class: 'resume-section p-3 p-lg-5 d-flex align-items-center'
+          id: awards
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: w-100
+            innerHTML:
+              -
+                type: h2
+                attribute:
+                  class: mb-5
+                innerHTML: 'Awards & Certifications'
+              -
+                type: ul
+                attribute:
+                  class: 'fa-ul mb-0'
+                innerHTML:
+                  -
+                    type: li
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fa-li fa fa-trophy text-warning'
+                      -
+                        type: span
+                        innerHTML: 'Google Analytics Certified Developer'
+                  -
+                    type: li
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fa-li fa fa-trophy text-warning'
+                      -
+                        type: span
+                        innerHTML: 'Mobile Web Specialist - Google Certification'
+                  -
+                    type: li
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fa-li fa fa-trophy text-warning'
+                      -
+                        type: span
+                        innerHTML: '1'
+                      -
+                        type: sup
+                        innerHTML: st
+                      -
+                        type: span
+                        innerHTML: 'Place - University of Colorado Boulder - Emerging Tech Competition 2009'
+                  -
+                    type: li
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fa-li fa fa-trophy text-warning'
+                      -
+                        type: span
+                        innerHTML: '1'
+                      -
+                        type: sup
+                        innerHTML: st
+                      -
+                        type: span
+                        innerHTML: 'Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)'
+                  -
+                    type: li
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fa-li fa fa-trophy text-warning'
+                      -
+                        type: span
+                        innerHTML: '2'
+                      -
+                        type: sup
+                        innerHTML: nd
+                      -
+                        type: span
+                        innerHTML: 'Place - University of Colorado Boulder - Emerging Tech Competition 2008'
+                  -
+                    type: li
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fa-li fa fa-trophy text-warning'
+                      -
+                        type: span
+                        innerHTML: '1'
+                      -
+                        type: sup
+                        innerHTML: st
+                      -
+                        type: span
+                        innerHTML: 'Place - James Buchanan High School - Hackathon 2006'
+                  -
+                    type: li
+                    innerHTML:
+                      -
+                        type: i
+                        attribute:
+                          class: 'fa-li fa fa-trophy text-warning'
+                      -
+                        type: span
+                        innerHTML: '3'
+                      -
+                        type: sup
+                        innerHTML: rd
+                      -
+                        type: span
+                        innerHTML: 'Place - James Buchanan High School - Hackathon 2005'

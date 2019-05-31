@@ -1,0 +1,66 @@
+settings:
+  path: '1/innerHTML/1/innerHTML'
+content:
+  -
+    type: text
+    text: '<!DOCTYPE html>'
+  -
+    type: html
+    attribute:
+      lang: en
+    innerHTML:
+      -
+        type: head
+        innerHTML:
+          -
+            type: meta
+            attribute:
+              charset: utf-8
+          -
+            type: meta
+            attribute:
+              name: viewport
+              content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+          -
+            type: meta
+            attribute:
+              name: description
+              content: ''
+          -
+            type: meta
+            attribute:
+              name: author
+              content: ''
+          -
+            type: title
+            innerHTML: 'Resume - Start Bootstrap Theme'
+          -
+            type: link
+            attribute:
+              href: /theme/startbootstrap/resume/vendor/bootstrap/css/bootstrap.min.css
+              rel: stylesheet
+          -
+            type: link
+            attribute:
+              href: 'https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700'
+              rel: stylesheet
+          -
+            type: link
+            attribute:
+              href: 'https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i'
+              rel: stylesheet
+          -
+            type: link
+            attribute:
+              href: /theme/startbootstrap/resume/vendor/fontawesome-free/css/all.min.css
+              rel: stylesheet
+          -
+            type: link
+            attribute:
+              href: /theme/startbootstrap/resume/css/resume.min.css
+              rel: stylesheet
+      -
+        type: body
+        attribute:
+          id: 'page-top'
+        innerHTML: 'body...'
